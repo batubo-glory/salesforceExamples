@@ -6,3 +6,4 @@
 .sfdx/typings/lwc/engine.d.ts
 .sfdx/typings/lwc/lds.d.ts
 .sfdx/typings/lwc/schema.d.ts
+.sfdx/sfdx-config.json
