@@ -10,3 +10,13 @@
 .vscode/launch.json
 .sfdx/orgs/harvey@salesforce.examples/metadataTypeInfos.json
 .vscode/extensions.json
+.sfdx/tools/testresults/apex/test-result.txt
+.sfdx/tools/testresults/apex/test-run-id.txt
+.sfdx/tools/testresults/apex/test-result-7072E00009re1w1-junit.xml
+.sfdx/tools/testresults/apex/test-result-7072E00009rdma7.json
+.sfdx/tools/testresults/apex/test-result-7072E00009rdma7-junit.xml
+.sfdx/tools/testresults/apex/test-result-7072E00009rdohQ.json
+.sfdx/tools/testresults/apex/test-result-7072E00009rdohQ-junit.xml
+.sfdx/tools/testresults/apex/test-result-7072E00009re1rF.json
+.sfdx/tools/testresults/apex/test-result-7072E00009re1rF-junit.xml
+.sfdx/tools/testresults/apex/test-result-7072E00009re1w1.json
