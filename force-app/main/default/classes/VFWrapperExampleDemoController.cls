@@ -1,7 +1,7 @@
 public class VFWrapperExampleDemoController{
     public list<AccountSelectWrapper> wrapperList {get;set;}
     
-    public AccountSelectDemoController(){
+    public VFWrapperExampleDemoController(){
         wrapperList = new list<AccountSelectWrapper>();
         
         for(Account theAccount: [select id, name, billingstate from Account]){

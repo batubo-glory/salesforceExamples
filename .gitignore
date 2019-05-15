@@ -7,3 +7,6 @@
 .sfdx/typings/lwc/lds.d.ts
 .sfdx/typings/lwc/schema.d.ts
 .sfdx/sfdx-config.json
+.vscode/launch.json
+.sfdx/orgs/harvey@salesforce.examples/metadataTypeInfos.json
+.vscode/extensions.json

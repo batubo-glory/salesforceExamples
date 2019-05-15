@@ -117,7 +117,7 @@ global with sharing class ApexSchedulerClassDemo implements Schedulable{
     //You can ignore the schedulableContext, it is used by the system to track the job.
     global void execute(SchedulableContext sc) {
         Contact c = new Contact();
-        c.Name = 'New Contact';
+        c.LastName = 'New Contact';
         insert c;
     }
 /*
