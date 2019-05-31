@@ -1,5 +1,6 @@
 .forceignore
 .vscode/settings.json
+.sfdx
 .sfdx/tools
 .sfdx/tools/apex.db
 .sfdx/typings/lwc/user.d.ts

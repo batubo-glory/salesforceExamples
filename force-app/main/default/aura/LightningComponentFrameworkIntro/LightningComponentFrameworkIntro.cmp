@@ -1,0 +1,32 @@
+<aura:component >
+    <aura:attribute name="numberOne" type="Integer" default="1" required="true" />
+    <aura:attribute name="numberTwo" type="Integer" description="Second Number" />
+    <aura:attribute name="sum" type="Integer" />
+    <aura:attribute name="changedText" type="String" />
+    <aura:attribute name="textUpdated" type="Boolean" default="false" />
+    <aura:attribute name="display" type="Boolean" default="true" />
+    
+    <!-- This is where we are going to place our event listeners-->
+    <aura:handler name="change" value="{!v.sum}" action="{!c.sumChanged}"/>
+    <aura:handler name="init" value="{!this}" action="{!c.doInit}" />
+    <!--What if?...-->
+    <aura:if isTrue="{!v.textUpdated}">
+    	Text Updated!
+    </aura:if>
+    
+    
+    <!--User input-->
+    <aura:if isTrue="{!v.display}" >
+    <ui:inputNumber label="Enter a number: " value="{!v.numberOne}"/>
+    <ui:inputNumber label="Enter a number: " value="{!v.numberTwo}"/>
+    <lightning:input type="number" label="Enter a number: " value="{! v.numberOne }" />
+    <lightning:button label="Add" title="Add" onclick="{!c.addNumbers}" />
+    </aura:if>
+    <h1>
+        {! v.numberOne + ' + ' + v.numberTwo + ' = ' + (v.numberOne + v.numberTwo)}
+    </h1>
+    <h2>
+        {! v.numberOne + ' + ' + v.numberTwo + ' = ' + v.sum}
+    </h2>
+    <ui:outputText value="{!v.changedText}" />
+</aura:component>
